@@ -1,9 +1,9 @@
 import './App.css';
 
-import Login from './Routes/Login';
-import Register from './Routes/Register'
+import Login from './Component/Login';
+import Register from './Component/Register'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Dashboard from './Routes/Dashboard';
+import Dashboard from './Component/Dashboard';
 
 function App() {
 
